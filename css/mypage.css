@@ -1,0 +1,74 @@
+@import "./global.css";
+
+.user-component {
+    padding: 20px 10px;
+    flex-direction: column;
+}
+
+.user-component__profile {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.user_component__id {
+    padding-top: 5px;
+    font-size: 1rem;
+}
+
+.add-profile-btn {
+    background-color: grey;
+    width: 70px;
+    height: 70px;
+    font-size: 2rem;
+    font-weight: 200;
+    color: white;
+}
+
+.continue-watching__images img {
+    width: 200px;
+    height: 120px;
+    border-radius: 15px;
+    /* 가로, 세로 비율을 유지하면서 지정한 크기에 맞춤 */
+    object-fit: cover;
+}
+
+/* 사진 여백을 조정 */
+.continue-watching {
+    margin-bottom: 25px;
+    padding: 0 20px;
+    padding-bottom: 10px;
+}
+
+.continue-watching__images {
+    list-style: none;
+    display: flex;
+    overflow: auto;
+}
+
+.continue-watching__card {
+    background-color: var(--darkpurple);
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.continue-watching__header {
+    margin-bottom: 15px;
+}
+
+.continue-watching__images li {
+    margin-left: 5px;
+}
+
+.continue-watching__title {
+    display: block;
+    margin: 2px 0;
+}
+
+
+
+
+
+
+
+
